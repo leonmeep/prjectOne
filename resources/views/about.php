@@ -8,10 +8,15 @@
     <title>About Page</title>
 </head>
 <body>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+
     <h1>About Page</h1>
     <p>This is the about page.</p>
-    <a href="/">Home</a>
-    <a href="/contact">Contact</a>
-    <a href="/about">About</a>
+
 </body>
 </html>

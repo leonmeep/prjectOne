@@ -8,11 +8,13 @@
     <title>Home Page</title>
 </head>
 <body>
-    <h1>About Page</h1>
-        <p>This is the about page.</p>
-             <a href="/">Home</a>
-            <a href="/contact">Contact</a>
+    <nav>
+        <a href="/">Home</a>
         <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    <h1>Home Page</h1>
+    <p>This is the home page.</p>
 
     </body>
 </html>
