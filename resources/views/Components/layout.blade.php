@@ -16,7 +16,7 @@
             <div class="flex h-16 items-center justify-between">
                 <div class="flex items-center">
                     <div class="flex-shrink-0">
-                        <img class="h-8 w-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company">
+                       <img class="h-8 w-8" src="https://laracasts.com/images/logo/logo-triange.svg" alt="Leon Birch Logo">
                     </div>
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
@@ -105,12 +105,15 @@
 
     <header class="bg-white shadow">
         <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-            <h1 class="text-3xl font-bold tracking-tight text-gray-900">Dashboard</h1>
+            <h1 class="text-3xl font-bold tracking-tight text-gray-900">{{$heading}}</h1>
         </div>
     </header>
+
     <main>
         <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-            <!-- Your content -->
+            <div class="px-4 py-6 sm:px-0">
+                {{ $slot }}
+            </div>
         </div>
     </main>
 </div>
